@@ -1,0 +1,54 @@
+======Fundamental====================================================
+- Cari alamat penyimpanan local
+cd /D/alamat/folder/yang/digunakan/
+jika nama folder terdapat spasi didalamnya harus diberikan tanda''
+cd /D/alamat/folder/yang/digunakan/'saat ini'/
+
+- Inisialisasi Repositori Git
+git init
+git commit -m "Inisialisasi repositori Git"
+
+- Menambahkan File Baru atau Melakukan Perubahan pada File
+git add .
+git commit -m "Menambahkan file baru atau yang dimodifikasi"
+
+- Melakukan comment pada file yang telah ditambahkan
+git commit -m "Comment file"
+
+- Memasukkan url repository GitHub baru
+git remote add origin https://github.com/hendrikekon/git-belajar.git
+
+- Memasukkan url untuk meng copy repository GitHub ke penyimpanan local
+git clone https://github.com/hendrikekon/git-belajar.git
+
+- Melihat Status Repositori
+git status
+git commit -m "Memeriksa status repositori"
+
+- Melihat Log Commit
+git log
+git commit -m "Melihat log commit"
+
+- Mengirim Perubahan ke Remote Repository
+git push origin main
+git commit -m "Mengirim perubahan ke repository"
+=====================================================================
+
+======Branch=========================================================
+- Membuat Branch Baru
+git branch nama
+git commit -m "Membuat branch baru nama"
+
+- Beralih ke Branch Lain
+git checkout nama
+git commit -m "Beralih ke branch nama"
+
+- Menggabungkan Branch
+git checkout master
+git merge nama
+git commit -m "Menggabungkan branch nama ke master"
+
+- Menghapus Branch
+git branch -d nama
+git commit -m "Menghapus branch nama"
+=====================================================================
